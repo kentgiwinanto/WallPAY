@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Fund"
+        android:textSize="21dp"
+        android:paddingTop="15dp"
+        android:paddingLeft="25dp"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center"
+        android:textStyle="bold"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="40dp">
+
+        <!-- Send Button -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textColor="@color/colorPrimary"
+            android:layout_alignParentLeft="true"
+            android:text="Amount"
+            android:textSize="18sp"
+            android:gravity="left"
+            android:maxLines="1"/>
+
+        <EditText
+            android:id="@+id/etAmount"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="40dp"
+            android:inputType="number"
+            android:textSize="18sp"
+            android:maxLines="1"
+            android:gravity="left"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp">
+
+        <!-- Send Button -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textColor="@color/colorPrimary"
+            android:layout_alignParentLeft="true"
+            android:text="Passkey"
+            android:textSize="18sp"
+            android:gravity="left"
+            android:maxLines="1"/>
+
+        <EditText
+            android:id="@+id/etPasskey"
+            android:inputType="textPassword"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="40dp"
+            android:textSize="18sp"
+            android:maxLines="1"
+            android:gravity="left"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/linkCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textSize="17sp"
+            android:text="Cancel"
+            android:gravity="right"
+            android:layout_marginLeft="140dp"/>
+
+        <TextView
+            android:id="@+id/linkSend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textSize="17sp"
+
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="35dp"
+            android:text="Send"
+
+            android:gravity="right"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

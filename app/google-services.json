@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "319563911187",
+    "firebase_url": "https://wailpay-b8502.firebaseio.com",
+    "project_id": "wailpay-b8502",
+    "storage_bucket": "wailpay-b8502.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:319563911187:android:8b1c9db41fbede68",
+        "android_client_info": {
+          "package_name": "io.chirp.gemswap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "319563911187-leeo1omo55t257lhhj0r3k8jjl36foeq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBy0xAKdLHY3yG9ctudUSNiHZsvZ6u7zs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:319563911187:android:74f78c27c2b32797",
+        "android_client_info": {
+          "package_name": "com.example.javerill.wailpay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "319563911187-leeo1omo55t257lhhj0r3k8jjl36foeq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBy0xAKdLHY3yG9ctudUSNiHZsvZ6u7zs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

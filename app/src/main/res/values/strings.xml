@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">WailPay</string>
+    <string name="uid_hint">User ID</string>
+    <string name="password_hint">Password</string>
+    <string name="button_login">Login</string>
+    <string name="no_account">No account yet? Create your own!</string>
+    <string name="full_name">Full Name</string>
+    <string name="email">Email Address</string>
+    <string name="button_register">Register</string>
+    <string name="yes_account">Already have an account? Login now!</string>
+    <string name="action_settings">Settings</string>
+</resources>
