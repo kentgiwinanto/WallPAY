@@ -16,7 +16,7 @@ APP_BASE_NAME=`basename "$0"`
 MAX_FD="maximum"
 
 warn ( ) {
-    echo "$*"
+    echo "$*"test
 }
 
 die ( ) {
@@ -30,7 +30,7 @@ die ( ) {
 cygwin=false
 msys=false
 darwin=false
-case "`uname`" in
+case "`uname`" intes
   CYGWIN* )
     cygwin=true
     ;;
